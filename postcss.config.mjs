@@ -1,5 +1,6 @@
-module.exports = {
+const config = {
   plugins: {
+    '@tailwindcss/postcss': {},
     'postcss-preset-mantine': {},
     'postcss-simple-vars': {
       variables: {
@@ -12,3 +13,4 @@ module.exports = {
     },
   },
 };
+export default config;

@@ -1,0 +1,58 @@
+{
+  "header": {
+    "language": "Idioma",
+    "search": "Buscar",
+    "live": "En vivo",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "logout": "Cerrar sesión"
+  },
+  "welcome": {
+    "title": "Bienvenido a tu Panel",
+    "subtitle": "Tus métricas de éxito de un vistazo"
+  },
+  "earnings": {
+    "title": "Ganancias",
+    "subtitle": "Descripción general de ganancias mensuales",
+    "january": "Ene",
+    "february": "Feb",
+    "march": "Mar",
+    "april": "Abr",
+    "may": "May",
+    "june": "Jun",
+    "july": "Jul",
+    "august": "Ago",
+    "last7Days": "Últimos 7 días",
+    "last30Days": "Últimos 30 días",
+    "last90Days": "Últimos 90 días"
+  },
+  "successRate": {
+    "title": "Tasa de Éxito",
+    "percentage": "Éxito",
+    "rate": "Tasa de éxito"
+  },
+  "paymentIssues": {
+    "title": "Problemas de Pago",
+    "subtitle": "Problemas por estado",
+    "pending": "Pendiente",
+    "resolved": "Resuelto",
+    "review": "Revisión"
+  },
+  "messages": {
+    "stats": "Estadísticas",
+    "title": "Mensajes"
+  },
+  "sidebar": {
+    "payments": "Pagos",
+    "commerce": "Comercio",
+    "transactions": "Transacciones",
+    "customers": "Clientes",
+    "payouts": "Pagos",
+    "balances": "Saldos",
+    "subscriptions": "Suscripciones",
+    "paymentPlans": "Planes de pago",
+    "referrals": "Referencias",
+    "auditLogs": "Registros de auditoría",
+    "settings": "Configuración"
+  }
+}

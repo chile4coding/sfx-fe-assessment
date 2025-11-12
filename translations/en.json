@@ -1,0 +1,58 @@
+{
+  "header": {
+    "language": "Language",
+    "search": "Search",
+    "live": "Live",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "welcome": {
+    "title": "Welcome to Your Dashboard",
+    "subtitle": "Your success metrics at a glance"
+  },
+  "earnings": {
+    "title": "Earnings",
+    "subtitle": "Monthly earnings overview",
+    "january": "Jan",
+    "february": "Feb",
+    "march": "Mar",
+    "april": "Apr",
+    "may": "May",
+    "june": "Jun",
+    "july": "Jul",
+    "august": "Aug",
+    "last7Days": "Last 7 days",
+    "last30Days": "Last 30 days",
+    "last90Days": "Last 90 days"
+  },
+  "successRate": {
+    "title": "Success Rate",
+    "percentage": "Success",
+    "rate": "Success rate"
+  },
+  "paymentIssues": {
+    "title": "Payment Issues",
+    "subtitle": "Issues by status",
+    "pending": "Pending",
+    "resolved": "Resolved",
+    "review": "Review"
+  },
+  "messages": {
+    "stats": "Stats",
+    "title": "Messages"
+  },
+  "sidebar": {
+    "payments": "Payments",
+    "commerce": "Commerce",
+    "transactions": "Transactions",
+    "customers": "Customers",
+    "payouts": "Payouts",
+    "balances": "Balances",
+    "subscriptions": "Subscriptions",
+    "paymentPlans": "Payment plans",
+    "referrals": "Referrals",
+    "auditLogs": "Audit logs",
+    "settings": "Settings"
+  }
+}
