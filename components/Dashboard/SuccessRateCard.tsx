@@ -1,7 +1,7 @@
 'use client';
 
 import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts';
-import { Box, Card, Group, Stack, Text, ThemeIcon } from '@mantine/core';
+import { Box, Card, Group, Stack, Text } from '@mantine/core';
 import { useSuccessRateCard } from '@/hooks/useDashboard';
 
 interface SuccessRateCardProps {
@@ -22,13 +22,13 @@ export function SuccessRateCard({
   );
 
   return (
-    <Card p="lg" radius="xl" withBorder h={'100%'}>
-      <Text fw={700} size="md" mb="lg" c={'dark'}>
+    <Card p="lg" radius="xl" withBorder h="100%">
+      <Text fw={700} size="md" mb="lg" c="dark">
         {title}
       </Text>
 
       <div className=" flex justify-center items-center h-full" style={{ marginBottom: '20px' }}>
-        <ResponsiveContainer>
+        <ResponsiveContainer width={250} height={250}>
           <PieChart>
             <Pie
               data={chartData}
@@ -66,8 +66,8 @@ export function SuccessRateCard({
       <Group justify="space-around" mt="xl">
         <Stack gap={0} align="center">
           <Group>
-            <Box className=" rounded-md" bg={'#DFEEDB'} w={20} h={20}></Box>
-            <Text fw={700} size="lg" c={'dark'}>
+            <Box className=" rounded-md" bg="#DFEEDB" w={20} h={20} />
+            <Text fw={700} size="lg" c="dark">
               {unsuccessful}
             </Text>
           </Group>
@@ -77,8 +77,8 @@ export function SuccessRateCard({
         </Stack>
         <Stack gap={0} align="center">
           <Group>
-            <Box className=" rounded-md" bg={'#DFEEDB'} w={20} h={20}></Box>
-            <Text fw={700} size="lg" c={'dark'}>
+            <Box className=" rounded-md" bg="#DFEEDB" w={20} h={20} />
+            <Text fw={700} size="lg" c="dark">
               {successful}
             </Text>
           </Group>

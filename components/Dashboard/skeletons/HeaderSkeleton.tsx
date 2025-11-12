@@ -1,6 +1,6 @@
 'use client';
 
-import { Group, Skeleton, Box, Stack } from '@mantine/core';
+import { Group, Skeleton, Stack } from '@mantine/core';
 
 export function HeaderSkeleton() {
   return (

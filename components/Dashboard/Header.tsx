@@ -1,18 +1,15 @@
 'use client';
 
 import {
-  IconBell,
   IconBellFilled,
   IconChevronDown,
   IconCircle,
-  IconCircleCheckFilled,
   IconMenu2,
   IconSearch,
 } from '@tabler/icons-react';
 import {
   ActionIcon,
   Avatar,
-  Badge,
   Box,
   Group,
   Image,
@@ -45,13 +42,13 @@ export function Header({
   const isMobile = useMediaQuery('(max-width: 48em)');
 
   return (
-    <Group justify="space-between" align="center" px="md" py="sm">
+    <Group justify="space-between" align="center" px="md" py="sm" className=" z-50" bg="white">
       {isMobile && (
         <ActionIcon variant="subtle" onClick={onToggleMobileNav} aria-label="Toggle navigation">
           <IconMenu2 size={20} />
         </ActionIcon>
       )}
-      <Image src={'/favicon.svg'} alt="logo" fit="contain" maw={87} />
+      <Image src="/favicon.svg" alt="logo" fit="contain" maw={87} />
 
       <TextInput
         placeholder={searchPlaceholder}
@@ -91,7 +88,7 @@ export function Header({
           size="md"
           value={language}
           onChange={handleLanguageChange}
-          color={'#969696'}
+          color="#969696"
           data={languages}
           rightSection={<IconChevronDown size={16} />}
           clearable={false}
@@ -108,7 +105,7 @@ export function Header({
 
       <Stack align="center">
         <Indicator color="#E5A0FF" size={12}>
-          <Box p={5} bg={'#FAFAFA'}>
+          <Box p={5} bg="#FAFAFA">
             <IconBellFilled size={20} fill="gray" />
           </Box>
         </Indicator>

@@ -21,7 +21,7 @@ import { SuccessRateCard } from './SuccessRateCard';
 import { WelcomeCard } from './WelcomeCard';
 
 export function DashboardLayout() {
-  const { mobileNavOpen, desktopNavOpen, toggleMobileNav, toggleDesktopNav } = useDashboardLayout();
+  const { mobileNavOpen, desktopNavOpen, toggleMobileNav } = useDashboardLayout();
   const { isLoading, setAllLoading } = useDashboardLoading();
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export function DashboardLayout() {
           border: 'none',
         }}
       >
-        <Container fluid mt={100}>
+        <Container fluid className="mt-[170px] md:mt-[100px]">
           <Grid gutter="lg">
             {/* Welcome Card - Full width */}
             <Grid.Col span={{ base: 12, md: 9 }}>
