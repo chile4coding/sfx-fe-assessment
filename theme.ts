@@ -99,6 +99,13 @@ export const theme = createTheme({
       defaultProps: {
         p: 'md',
         radius: 'md',
+        withBorder: true,
+      },
+      styles: {
+        root: {
+          borderColor: '#F2F2F2',
+          // borderWidth: '1px',
+        },
       },
     },
     Button: {
